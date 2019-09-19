@@ -1,0 +1,10 @@
+spring:
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: file:///Users/karthiktejamunjampally/IdeaProjects
+server:
+  port: 8888
